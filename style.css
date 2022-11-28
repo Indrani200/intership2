@@ -1,0 +1,35 @@
+body{
+    background-image: url("bg.jpg");
+    background-size:cover;
+    overflow: hidden;
+}
+.taskbar{
+    background-color:#f3f3f3;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 110px;
+    width: 100%;
+    bottom: 0;
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
+.left{
+    justify-self: flex-end;
+    position: absolute;
+    left: 0;
+    margin: 6px 0;
+    height: 90%;
+}
+.icons{
+    color: #f3f3f3;
+}
+.a1{
+    border-radius: 50%;
+}
